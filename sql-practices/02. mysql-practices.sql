@@ -70,4 +70,5 @@ where title like '%Engineer';
 -- 사번이 13250(Zeydy)인 지원이 직책 변경 상황을 시간순으로 출력해보세요.
 select title, from_date
 from titles
-where emp_no = 13250;
+where emp_no = 13250
+order by from_date asc;
